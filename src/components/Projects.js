@@ -2,7 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/yt-spoti.jpeg";
 import projImg2 from "../assets/img/ml.jpg";
-import projImg3 from "../assets/img/movies.jpeg";
+import projImg3 from "../assets/img/lstm.jpeg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import gameBanner from "../assets/img/game.png"
 import rpgBanner from "../assets/img/rpg.jpeg"
@@ -26,10 +26,10 @@ export const Projects = () => {
       category: 'personal'
     },
     {
-      title: "Movie Recommendation",
-      description: "Made on Google collabs using Python, NumPy and Pandas",
+      title: "LSTM Generating Music",
+      description: "Preprocessed songs and train model to produce music",
       imgUrl: projImg3,
-      link: "https://colab.research.google.com/drive/1OAWZbjjXbGPwYJuWfmaRMz_cOhB8aU01?usp=sharing",
+      link: "https://github.com/iamjsk10/Music_Generator/wiki",
       category: 'personal'
     }
   ];
